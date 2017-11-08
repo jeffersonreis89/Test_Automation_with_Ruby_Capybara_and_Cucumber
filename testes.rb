@@ -16,3 +16,9 @@ puts
 for dedos in 1..3
 	puts "Contando " + dedos.to_s
 end
+
+#Testes do array
+puts "\n\n\n"
+puts "Test do array"
+chutes = [100, 50, 30, 40, 59]
+puts chutes[3]
