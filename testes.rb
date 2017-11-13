@@ -22,3 +22,11 @@ puts "\n\n\n"
 puts "Test do array"
 chutes = [100, 50, 30, 40, 59]
 puts chutes[3]
+
+#
+puts "TESTE HOJE"
+nome = gets.strip
+puts "#{nome} tem #{nome.size} caracteres"
+puts nome + " tem " + nome.size.to_s + " caracteres"
+puts "Resultado "
+puts nome[9]
