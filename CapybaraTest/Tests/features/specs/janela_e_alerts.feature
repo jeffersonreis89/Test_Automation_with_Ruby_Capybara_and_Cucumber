@@ -6,5 +6,6 @@ Funcionalidade: Interagindo com janela e alerts
 Cenário: Usando janelas
 Quando eu entro na janela e verifico a mensagem
 
+@one
 Cenário: Usando Alerts
 Quando eu entro no alert e verifico faco a acao
