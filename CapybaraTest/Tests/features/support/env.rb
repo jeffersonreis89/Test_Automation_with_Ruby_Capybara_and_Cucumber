@@ -1,5 +1,11 @@
-require 'capybara/cucumber'
+# require 'capybara/cucumber'
 require 'selenium-webdriver'
+require 'capybara/dsl'
+require 'capybara/rspec/matchers'
+require 'capybara'
+
+World(Capybara::DSL)
+World(Capybara::RSpecMatchers)
 
 # Capybara.configure do |config|
 #     config.run_server = false
